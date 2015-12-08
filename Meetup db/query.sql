@@ -1,0 +1,10 @@
+select * from users where Id = 1;
+select * from users where Id = 3;
+select * from statuses where Value = 'Going';
+select * from statuses where Value = 'Not Going';
+select * from meetups where location = 'Miskolc';
+select * from meetups where Topic = 'It Meetup Rendezveny';
+select * from meetups where location = 'Edeleny';
+select * from meetups where Id = 1;
+select * from metetupregistrations where Id = 1;
+select * from metetupregistrations where Id = 3;

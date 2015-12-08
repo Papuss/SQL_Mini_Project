@@ -1,0 +1,17 @@
+UPDATE meetups SET location = 'Edeleny' WHERE id = 3;
+UPDATE meetups SET topic = 'It Meetup Rendezveny' WHERE id = 4;
+UPDATE statuses SET value = 'Not Going' WHERE id = 3;
+UPDATE statuses SET value = 'Going' WHERE id = 2;
+UPDATE users SET name = 'Kis Pista' WHERE id = 3;
+UPDATE users SET Avatar = '' WHERE id = 2;
+UPDATE users SET Email = 'mokuskerek@kerek.com' WHERE id = 3;
+UPDATE metetupregistrations SET `[ FK ] StatusId`= 4 WHERE id = 1;
+UPDATE metetupregistrations SET `[ FK ] UserId`= 4 WHERE id = 1;
+UPDATE metetupregistrations SET `[ FK ] StatusId`= 3 WHERE id = 2;
+UPDATE metetupregistrations SET `[ FK ] UserId`= 3 WHERE id = 2;
+UPDATE metetupregistrations SET `[ FK ] StatusId`= 2 WHERE id = 3;
+UPDATE metetupregistrations SET `[ FK ] UserId`= 2 WHERE id = 3;
+UPDATE metetupregistrations SET `[ FK ] StatusId`= 1 WHERE id = 4;
+UPDATE metetupregistrations SET `[ FK ] UserId`= 1 WHERE id = 4;
+UPDATE metetupregistrations SET `[ FK ] StatusId`= 5 WHERE id = 5;
+UPDATE metetupregistrations SET `[ FK ] UserId`= 5 WHERE id = 5;
